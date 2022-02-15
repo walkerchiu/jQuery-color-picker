@@ -1,0 +1,22 @@
+{
+  "name": "jQuery-color-picker",
+  "version": "1.0.0",
+  "description": "Color Picker",
+  "main": "color-picker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerchiu/jQuery-color-picker.git"
+  },
+  "author": {
+    "name": "Walker Chiu",
+    "email": "chenjen.chiou@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walkerchiu/jQuery-color-picker/issues"
+  },
+  "homepage": "https://github.com/walkerchiu/jQuery-color-picker#readme"
+}

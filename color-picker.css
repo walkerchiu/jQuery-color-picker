@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.WKCP .WKCP_edit {
+    padding: 10px;
+}
+.WKCP .WKCP_table {
+    width: 230px;
+    height: 120px;
+    position: absolute;
+    background-color: #eff6ef;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 5px;
+    display: none;
+    border: 1px solid #EEE;
+    z-index: 3;
+}
+.WKCP .WKCP_table_now {
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-color: #FFF;
+    margin: 3px;
+    border: 1px solid #eff6ef;
+    cursor: pointer;
+}
+.WKCP .WKCP_table_item {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    margin: 3px;
+    border: 1px solid #eff6ef;
+    cursor: pointer;
+}
