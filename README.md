@@ -1,6 +1,6 @@
 # jQuery-color-picker
 
-This library implements an input box that lets the user choose a color.
+This library implements a color picker input box that lets users choose colors from a predefined palette or enter custom color values.
 
 ## Installation
 
@@ -30,8 +30,18 @@ vi path/jQuery-color-picker/color-picker.js
 ``` html
 <!-- HTML -->
 
-<!-- Add data attribute "WKCP" to your inputs -->
+<!-- Add data attribute "WKCP" to your input elements -->
 <input type="text" name="color" data-picker="WKCP" />
+```
+
+``` javascript
+<!-- JavaScript -->
+
+// Initialize color picker for container
+$('.container').WKCP_init();
+
+// Or initialize individual elements
+$('input[data-picker="WKCP"]').WKCP();
 ```
 
 ## Contributing
